@@ -1,0 +1,43 @@
+
+.header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 10em;
+
+    background: radial-gradient(#0a2d61, #082944);
+}
+
+ul {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+svg {
+    filter: invert(1);
+    transform: scale(1.2);
+}
+
+nav li {
+    list-style: none;
+}
+
+nav .a:hover {
+    color: #000;
+    transition: .2s;
+}
+
+nav .a {
+    color: #ffffff;
+    transition: .2s;
+}

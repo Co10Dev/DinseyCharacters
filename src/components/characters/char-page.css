@@ -1,0 +1,42 @@
+.pg-3 {
+    font-size: 30px;
+    text-align: left;
+
+    color: #fff;
+    margin-top: 150px;
+}
+
+.pg-3 h1 {
+    text-align: center;
+}
+
+.pg-3 img {
+    width: 300px;
+}
+
+.pg-3 ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.pg-3 ul span {
+    font-size: 1.7em;
+    color: #2aebeb;
+}
+
+.pg-3 .content {
+    padding: 50px 90px;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+}
+
+.pg-3 .ul-1 {
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: repeat(auto-fill, 1fr);
+}

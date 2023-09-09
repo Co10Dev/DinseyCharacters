@@ -1,0 +1,59 @@
+.pg-2 {
+    color: #fff;
+    margin-top: 97px;
+    text-align: center;
+}
+
+.pg-2 .characters {
+    width: 100%;
+
+    padding: 2em;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 500px) );
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.pg-2 h1 {
+    font-size: 5em;
+    margin-bottom: .3em;
+}
+
+
+
+.pg-2 .div-arrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+.pg-2 svg{
+    cursor: pointer;
+
+    width: 6em;
+    transform: rotate(0deg);
+}
+
+.pg-2 svg:active {
+    transform: scale(1.08);
+}
+
+.pg-2 .arrow-right {
+    transform: rotate(180deg);
+}
+
+.pg-2 .arrow-right:active {
+    transform: rotate(180deg) scale(1.08);
+}
+
+.pg-2 .number-page {
+    font-size: 5em;
+    user-select: none;
+}

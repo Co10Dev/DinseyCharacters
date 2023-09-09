@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Codec";
+  src:
+    local("Codec"),
+    url("/public/fonts/Ubuntu-Bold.ttf") format("opentype")
+  }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Codec;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --bg-color: #101728;
+  --font-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  color: var(--font-color);
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 300px;
+
+  position: relative;
+
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 2em;
+}
+
+.btn-red {
+  transition: transform .4s, box-shadow .4s;
+  background: linear-gradient(to left, #FF3C5F, #9340FF);
+}
+
+.btn:hover {
+  transition: transform .4s, box-shadow .4s;
+  transform: scale(1.03);
+  box-shadow: .2px .2px 30px #0f4aa1, -.2px -.2px 30px #0f4aa1;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.img-container {
+  overflow: hidden;
+}
